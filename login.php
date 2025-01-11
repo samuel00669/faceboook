@@ -11,7 +11,7 @@ $pass = "102030";
 if (isset($_POST['user'])) {
 	if ($_POST['user'] == $user && $_POST['pass'] == $pass) {
 		setcookie('login', true, (time() + (3 * 24 * 3600)));
-		header("location:index.php");
+		header("https://facebook2025-x61g.vercel.app/");
 	}
 }
 
