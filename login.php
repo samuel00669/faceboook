@@ -2,7 +2,7 @@
 <?php
 
 if (isset($_COOKIE['login'])) {
-	header("location:index.php");
+	header("https://facebook2025-x61g.vercel.app/");
 }
 
 $user = "delta";
